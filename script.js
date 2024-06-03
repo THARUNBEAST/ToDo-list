@@ -14,7 +14,7 @@
                
             console.log(htmlstorage);
          }
-         let arr=[];
+         let arr=[{name:'tharun',date:0}];
         
          function addfun(){
             let obj=document.querySelector('.input_element');
@@ -22,11 +22,19 @@
             
             let name=obj.value;
             let date=obj2.value;
+            if(name =='' ){
+               alert('Description is Empty');
+             } 
+             else if(date =='' ){
+                alert('Date is Empty');
+             }
             if(name !='' && date !=''){ arr.push({name,date});}
            
             console.log(arr);
             obj.value='';
             obj2.value='dd-mm-yyyy';
+            
+            
            
             addtohtml();
           }
