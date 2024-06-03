@@ -14,7 +14,7 @@
                
             console.log(htmlstorage);
          }
-         let arr=[{name:'tharun',date:0}];
+         let arr=[];
         
          function addfun(){
             let obj=document.querySelector('.input_element');
