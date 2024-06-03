@@ -1,0 +1,87 @@
+div{
+    display: grid;
+    grid-template-columns: 300px 300px 300px ;
+    align-items: center;
+    column-gap: 20px;
+}
+.tharun{
+  background-color: rgb(214, 219, 222);
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+}
+body{
+    display: inline-block;
+    margin-left: 10px;
+    background-color: rgb(144, 96, 188);
+}
+.input_element{
+    font-size: large;
+    border: none;
+    border-radius: 20px;
+    padding: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:15px 10px ;
+   
+}
+.addclass{
+    background-color: rgb(130, 15, 192);
+    color: white;
+    border: none;
+    padding:20px 10px ;
+    border-radius: 20px;
+    }
+    .addclass:active{
+        background-color: rgb(57, 121, 32);
+        color: white;
+        border: none;
+        padding:20px 10px ;
+        border-radius: 20px;
+        }
+    .datebutton{
+        
+        color: rgb(7, 7, 7);
+        border: 3px rgb(249, 247, 247);
+           border-radius: 20px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: large;
+        padding:20px 10px ;
+    }
+
+    .p1{
+        
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-shadow: 5px 2px 0px rgba(0, 0, 0, .6);
+    }
+    .div1{
+        background-color: rgb(214, 219, 222);
+        margin-top: 30px;
+        border: none;
+        border-radius: 20px;
+        
+       
+        padding-left: 20px;
+    }
+    .tharun2{
+        color: rgb(7, 7, 7);
+        border: 3px rgb(249, 247, 247);
+           border-radius: 20px;
+           padding-top: 10px;
+        padding:10px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border:  3px black;
+        box-shadow: 1px 1px 0px rgba(18, 17, 17,.4);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+    }
+    .del{
+      background: transparent;
+      border: none;
+    }
